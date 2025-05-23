@@ -1,0 +1,20 @@
+
+
+1. Comment comprendre ce type de résultat ?
+
+Un rapport de couverture permet de voir dans quelle mesure le code a été réellement exécuté par les tests. Il donne des statistiques sur les éléments du code testés, comme les lignes, les instructions ou les branches conditionnelles (comme les blocs if/else).
+
+Exemples :
+
+    Une couverture de 75 % des lignes signifie qu’un quart du code n’a jamais été exécuté pendant les tests.
+
+    Une couverture de 50 % des branches montre que certaines conditions (comme une clause else) n’ont jamais été prises en compte par les tests.
+
+Pour obtenir une meilleure couverture de test :
+
+    Écrire des tests supplémentaires ciblant les parties du code encore non testées, en particulier les branches conditionnelles oubliées.
+
+    Penser à couvrir les scénarios particuliers ou extrêmes, comme les erreurs de saisie ou les divisions par zéro.
+
+    Ne pas se contenter de tester uniquement les cas où tout se passe bien : prévoyez aussi des tests qui simulent des erreurs ou des cas imprévus.
+
