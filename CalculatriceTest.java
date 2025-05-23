@@ -27,4 +27,10 @@ public class CalculatriceTest {
         });
         assertEquals("Div par O", exception.getMessage());
     }
+
+    @Test
+    public void testMin(){
+        assertEquals(4.0f,calc.minus(6.0f,2.0f),0.0001);
+    }
+
 }
